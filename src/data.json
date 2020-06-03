@@ -1,0 +1,36 @@
+{
+    "data":
+  [{
+    "id": "Task 1",
+    "name": "Matrimony Project",
+    "start": "2020-4-28",
+    "end": "2020-5-29",
+    "progress": 0,
+    "dependencies": ""
+  },
+  {
+    "id": "Task 2",
+    "name": "Designing",
+    "start": "2020-4-28",
+    "end": "2020-5-10",
+    "progress": 90,
+    "dependencies": "Task 1"
+  },
+  {
+    "id": "Task 3",
+    "name": "Basics structure",
+    "start": "2020-5-8",
+    "end": "2020-5-20",
+    "progress": 70,
+    "dependencies": "Task 1,Task 2"
+  },
+  {
+    "id": "Task 4",
+    "name": "Apis",
+    "start": "2020-5-20",
+    "end": "2020-5-29",
+    "progress": 30,
+    "dependencies": "Task 1,Task 3"
+  }
+]
+}
